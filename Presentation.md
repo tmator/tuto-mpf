@@ -1,6 +1,6 @@
 # Présentation
 
-![Logo]([img/mpf_terminal.png](https://missionpinball.org/latest/images/mission-flag-header.png))
+![Logo](https://missionpinball.org/latest/images/mission-flag-header.png)
 
 Mission Pinball Framework (MPF) est un framework open-source conçu pour faciliter le développement de flippers.
 
