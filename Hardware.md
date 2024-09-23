@@ -9,6 +9,15 @@ Voici une liste non exhaustive des solutions permettant de gérer certains syst�
 **Bally/Stern AS-2518-17 ou AS-2518-35**
  
  Ces machines peuvent être gérées avec les cartes Lisy 35	https://lisy.dev/
+
+ Definition de la plateforme dans le fichier de configuration :
+
+ 	hardware:
+  		platform: lisy
+	lisy:
+  		connection: serial
+  		port: com1               # replace this with your com port
+  		baud: 115200
 	 
 **Gottlieb System 1 et System 80**
 	
