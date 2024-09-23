@@ -69,4 +69,4 @@ Pour les switchs, on nomme chaque contact (ex : s_shooter_lane_rollover et on l'
 
 Il suffit de remplir les fichiers, et tous les éléments seront alors identifiés et prêts à être utilisés.
 
-Vous trouverez ici les fichiers de Robowar avec les définitions de base.
+Vous trouverez [ici les fichiers de Robowar](https://github.com/tmator/tuto-mpf/tree/main/1) avec les définitions de base. 
