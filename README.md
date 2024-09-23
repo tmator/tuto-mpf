@@ -8,5 +8,6 @@ Ce dépot héberge des tutoriels Français pour se lancer avec MPF : https://mis
  4. [Configurer son flipper](Configuration.md)
  5. [Préparer le lancement d'un partie](Partie.md)
  6. [Les otpions de configuration utiles](Options.md)
- 8. Installation et paramétrage de mpf monitor
- 9. Installation du Média Controller (GMC)
+ 7. [Installation du Média Controller (GMC)](Gmc.md)
+ 8. [Installation et paramétrage de mpf monitor](Monitor.md))
+ 
