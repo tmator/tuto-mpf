@@ -74,3 +74,5 @@ Nous pouvons maintenant installer MPF (ici nous utilisons l'option --pre pour in
 pip install mpf --pre
 ```
 Voilà, MPF est installé.
+
+[configuration](Configuration.md)
