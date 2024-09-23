@@ -4,7 +4,8 @@ Pour installer MPF il vous faudra un ordinateur exécutant l'un des système d'e
 
 -   Windows 10/11 (64-bit only)
 -   macOS 10.14 ou plus (Intel & Apple Silicon)
--   Linux (64-bit) et Raspberry PI
+-   Linux (64-bit)
+-   Raspberry PI
 
 **Actuellement Python 3.12 n'est pas totalement validé mais fonctionnel avec MPF, si vous avez des déboires avec cette version n'hésitez pas à les faire remonter.**
 
