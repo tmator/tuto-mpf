@@ -30,11 +30,21 @@ En premier lieu, il faut mettre au début de chaque fichier la directive suivant
 
 Elle permet d'indiquer qu'une version de MPF > 0.57 est nécessaire pour exécuter cette machine.
 
+Il faut aussi préciser à MPF quelle plateforme nous utiliserons, dans mon cas j'utilsie lisy. Cette section est à adapter à votre matériel.
+
 Ensuite, il faut inclure tous les fichiers que nous avons créés dans le fichier config.yaml de cette façon :
 
     
     #config_version=6
-    
+
+	hardware:
+		platform: lisy
+
+	lisy:
+		connection: serial
+		port: /dev/ttyACM0
+		baud: 115200
+
 	config:
      - switches.yaml
      - coils.yaml
