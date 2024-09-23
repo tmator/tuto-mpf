@@ -12,6 +12,6 @@ Grâce à sa modularité et à son extensibilité, MPF s’est imposé comme une
 
 Il a aussi l'avantage d'être compatible avec la majorité des plateformes matérielles existantes.
 
-Pour utiliser MPF, il vous faudra donc un ordinateur qui fera tourner le programme (Mac, Linux, Windows) et un contrôleur matériel qui fera le lien entre MPF et les différents périphériques (Lumières, bobines, switches ...).
+Pour utiliser MPF, il vous faudra donc un ordinateur qui fera tourner le programme (Mac, Linux, Windows, rpi) et un contrôleur matériel qui fera le lien entre MPF et les différents périphériques (Lumières, bobines, switches ...).
 
 [Choix de la plateforme](Hardware.md)
