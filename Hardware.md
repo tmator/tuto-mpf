@@ -62,3 +62,5 @@ Voici quelques solutions matérielles pour gérer son flipper :
  - P-ROC et P3-ROC https://www.multimorphic.com/store/circuit-boards/p3-roc/
  - Fast Pinball https://fastpinball.com/products/
  - Pinball PKONE https://www.pennykpinball.com/
+
+[Installation](Installation.md)
