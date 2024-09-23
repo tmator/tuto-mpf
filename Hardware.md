@@ -72,7 +72,7 @@ Voici quelques solutions matérielles pour gérer son flipper :
   		platform: lisy
 	lisy:
   		connection: serial
-  		port: com1               # replace this with your com port
+  		port: com1 #à remplacer par le port utilisé
   		baud: 115200
 
 
@@ -81,7 +81,7 @@ Definition de la plateformes Fast :
  	hardware:
   		platform: fast
 	fast:
-    		ports: com3, com4, com5               # replace this with your com port
+    		ports: com3, com4, com5 #à remplacer par le port utilisé
 
 
 Definition de la plateformes OPP / CobraPin :
@@ -89,7 +89,7 @@ Definition de la plateformes OPP / CobraPin :
  	hardware:
   		platform: OPP
 	opp:
-  		port: com1               # replace this with your com port
+  		port: com1 #à remplacer par le port utilisé
 
 
 Definition des plateformes P-ROC ou P3-ROC :
@@ -105,11 +105,11 @@ Definition des plateformes SPIKE/SPIKE2 :
  	hardware:
   		platform: spike
 	spike:
-  		port: /dev/ttyUSB0	# replace this with your com port
+  		port: com1 #à remplacer par le port utilisé
   		baud: 115200
   		flow_control: false
   		debug: false
-  		nodes: 0, 1, 8, 9, 10, 11   #a définir suivant le jeu
+  		nodes: 0, 1, 8, 9, 10, 11 #à définir suivant le jeu
   		runtime_baud: 115200
 
 
@@ -118,8 +118,7 @@ Definition de la plateformes pkone :
  	hardware:
   		platform: pkone
 	pkone:
-   		port: com3  # replace this with your com port
-
+   		port: com3 #à remplacer par le port utilisé
 
 
 [Installation](Installation.md)
