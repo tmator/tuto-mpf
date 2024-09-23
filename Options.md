@@ -15,7 +15,8 @@ Le paramètre default_pulse_ms: 20 permet de dire combien de temps on souhaite a
 Voic un exemple ou l'on défini un lot de cibles tombantes. Dans la section drop_targets on défini les switchs qui sont associé aux cibles. 
 Dans la section drop_target_banks on définie les actions qui remettent à zéro le lot de cible ne précisent les cibles définies précédement, la bobine qui les remonte et au bout de combien detemps.
 
-  drop_targets:
+
+	  drop_targets:
     #alpha2
     a2_1_drop_target:
       switch: s_alpha_2_target_1
