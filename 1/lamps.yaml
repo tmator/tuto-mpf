@@ -1,0 +1,85 @@
+#config_version=6
+
+lights:
+  l_shoot_again:
+    number: 3
+  l_r:
+    number: 5
+  l_o:
+    number: 6
+  l_b:
+    number: 7
+  l_o2:
+    number: 8
+  l_w:
+    number: 9
+  l_a:
+    number: 10
+  l_r2:
+    number: 11
+  l_1x:
+    number: 15
+  l_2x:
+    number: 16
+  l_4x:
+    number: 17
+  l_8x:
+    number: 18
+  l_top_rollover_1:
+    number: 19
+  l_top_rollover_2:
+    number: 20                                           
+  l_top_rollover_3:
+    number: 21
+  l_top_rollover_4:
+    number: 22
+  l_top_rollover_r:
+    number: 23
+  l_top_rollover_o:
+    number: 24
+  l_top_rollover_b:
+    number: 25
+  l_top_rollover_o2:
+    number: 26
+  l_drop_b:
+    number: 27
+  l_drop_e:
+    number: 28
+  l_drop_t:
+    number: 29
+  l_drop_a:
+    number: 30
+  l_drop_base:
+    number: 31
+  l_drop_a3:
+    number: 32
+  l_drop_a2:
+    number: 33
+  l_drop_a1:
+    number: 34
+  l_left_side_spot:
+    number: 35
+  l_right_side_rollover:
+    number: 36
+  l_left_return_rollover:
+    number: 37
+  l_righti_out_rollover:
+    number: 38
+  l_left_side_spot2:
+    number: 39
+  l_top_right_rollunder:
+    number: 40
+  l_right_return_rollover:
+    number: 41
+  l_stargate_advance:
+    number: 42
+  l_stargate_battle:
+    number: 43
+  l_spinner:
+    number: 44
+  l_left_bumper:
+    number: 45
+  l_right_bumper:
+    number: 46
+  l_bottom_bumper:
+    number: 47

@@ -1,0 +1,87 @@
+#config_version=6
+
+switches:
+  s_left_adv:
+    number: 6
+  s_play_test_play:
+    number: 7
+  s_right_adv:
+    number: 16
+  s_left_coin:
+    number: 17
+  s_right_coin:
+    number: 27
+  s_spinner:
+    number: 30
+  s_top_right_rollunder:
+    number: 31
+  s_kicking_2:
+    number: 33
+  s_right_side_rollover:
+    number: 35
+  s_shooter_lane_rollover:
+    number: 36
+    tags: playfield_active
+  s_center_coin:
+    number: 37   
+  s_beta_target_b:
+    number: 40
+  s_alpha_3_target_1:
+    number: 41
+  s_alpha_2_target_1:
+    number: 42
+  s_alpha_1_target:
+    number: 43
+  s_1_top_rollover:
+    number: 44
+  s_left_out_rollover:
+    number: 45
+  s_right_flipper:
+    number: 46
+  s_start:
+    number: 47
+    tags: start   
+  s_beta_target_e:
+    number: 50
+  s_alpha_3_target_2:
+    number: 51
+  s_alpha_2_target_2:
+    number: 52
+  s_top_left_bumper:
+    number: 53
+  s_2_top_rollover:
+    number: 54
+  s_left_return_rollover:
+    number: 55
+  s_trough:
+    number: 56
+  s_tilt:
+    number: 57
+  s_beta_target_t:
+    number: 60
+  s_alpha_3_target_3:
+    number: 61
+  s_left_spot_target:
+    number: 62
+  s_top_right_bumper:
+    number: 63
+  s_3_top_rollover:
+    number: 64
+  s_right_out_rollover:
+    number: 65
+  s_outhole:
+    number: 66
+  s_beta_target_a:
+    number: 70
+  s_stargate_rollover:
+    number: 71
+  s_stargate_spot:
+    number: 72
+  s_bottom_bumper:
+    number: 73
+  s_4_top_rollover:
+    number: 74
+  s_right_return_rollover:
+    number: 75
+  s_hole:
+    number: 76

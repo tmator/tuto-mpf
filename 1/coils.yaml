@@ -1,0 +1,27 @@
+#config_version=6
+
+#particularité des sys80b, certaines bobines sont gérés par des driver de lampe, pour les utiliser dans MPF il faut ajouter 100 devant l'identifiant de la lampe
+
+coils:
+  c_game_over:
+    number: 100
+  c_tilt:
+    number: 101
+  c_ball_release:
+    number: 102
+  c_relay_s:
+    number: 103
+  c_relay_a:
+    number: 113
+  c_stargate_ramp:
+    number: 114
+  c_1:
+    number: 1
+  c_2:
+    number: 2
+  c_3:
+    number: 3
+  c_5:
+    number: 5
+  c_6:
+    number: 6
