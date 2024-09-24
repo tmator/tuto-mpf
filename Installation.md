@@ -5,10 +5,13 @@ Pour installer MPF il vous faudra un ordinateur exécutant l'un des système d'e
 -   Windows 10/11 (64-bit only)
 -   macOS 10.14 ou plus (Intel & Apple Silicon)
 -   Linux (64-bit)
+-   Raspberry PI
+
+**Actuellement Python 3.12 n'est pas totalement validé mais fonctionnel avec MPF, si vous avez des déboires avec cette version n'hésitez pas à les faire remonter.**
 
 ## Windows
 
-En premier lieu, il faut installer Python qui est disponible sur le Store de Microsoft : https://apps.microsoft.com/detail/9ncvdn91xzqp?ocid=webpdpshare
+En premier lieu, il faut installer Python 3.11 qui est disponible sur leur site : https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe
 
 Maintenant, il faut créer un environnement virtuel Python, cela permet de pouvoir utiliser différents projets Python sans avoir d'impact sur les versions des dépendances de ces projets.
 
