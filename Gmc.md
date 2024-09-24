@@ -13,20 +13,20 @@ Pour commencer il faut télécharger Godoot et le décompresser dans un dossier 
 
 Lancez ensuite Godot, puis créer un projet en sélectionnant comme dossier le dossier de votre projet MPF (attention à décocher la case créer un dossier), entrez un nom pour votre projet et choisissez le moteur de rendu. Dans la majorité des cas, le moteur "Mobile" est suffisant.
 
-![G](https://godot_creer.png)
+![G](img/godot_creer.png)
 
 Maintenant, vous pouvez télécharger le plugin GMC à partir du dépôt MPF-GMC sur GitHub. Rendez-vous sur https://github.com/missionpinball/mpf-gmc et cliquez sur le bouton vert 'Code' pour afficher le menu déroulant 'Code', puis sélectionnez 'Download ZIP' pour télécharger le plugin.
 
-![G](https://godo_download_gmc.png)
+![G](img/godo_download_gmc.png)
 
 Extrayez le fichier ZIP téléchargé et copiez le dossier addons dans le répertoire de votre projet.
 
 Dans Godot, allez dans Projet->Pramètres du projet, puis sur l'ognlet extensions et Activez "Godot MC".
 
-![G](https://godot_activer.png)
+![G](img/godot_activer.png)
 
 Ensuite dans l'onglet Généraux->Chargement automatique
 
-![G](https://godot_autoload.png)
+![G](img/godot_autoload.png)
 
 Enregistrez le projet et relancez Godot.
