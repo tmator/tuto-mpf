@@ -11,7 +11,7 @@ Godot utilise GDScript, un langage de programmation simple et léger, similaire 
 
 Pour commencer il faut télécharger Godoot et le décompresser dans un dossier (en dehors du dossier de votre jeu).
 
-Lancez ensuite Godot, puis créer un projet en sélectionnant comme dossier le dossier de votre projet MPF (attention à décocher la case créer un dossier), entrez un nom pour votre projet et choisissez le moteur de rendu. Dans la majorité des cas, le moteur "Mobile" est suffisant.
+Lancez ensuite Godot, puis créer un projet en sélectionnant comme dossier le dossier de votre projet MPF (attention à décocher la case créer un dossier), entrez un nom pour votre projet et choisissez le moteur de rendu. Dans la majorité des cas, le moteur "Mobile" est suffisant. Attention, si votre carte graphique est trop anciène, choisissez le mode "Compatibilité".
 
 ![G](img/godot_creer.png)
 
