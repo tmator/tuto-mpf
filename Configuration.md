@@ -46,7 +46,7 @@ Ensuite, il faut inclure tous les fichiers que nous avons créés dans le fichie
 		baud: 115200
 
 	config:
-     - switches.yaml
+     - switchs.yaml
      - coils.yaml
      - lamps.yaml
      - nter config_version=6
@@ -73,7 +73,7 @@ Pour les bobines, on nomme chaque bobine (ex : c_1 et on l'identifie, ici 1 car 
 Pour les switchs, on nomme chaque contact (ex : s_shooter_lane_rollover et on l'identifie, ici 36 car c'est le contact 36 de la matrice de switchs du flipper Robowar) :
 
 	#config_version=6
-	switches:	
+	switchs:	
 	  s_shooter_lane_rollover:
 	    number: 36
 
