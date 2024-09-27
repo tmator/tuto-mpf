@@ -41,4 +41,34 @@ Voici un exemple dans lequel on dit que lors de l'activation du switch s_left_sl
       			coil: c_left_slingshot
       			switch: s_left_slingshot
 
+## Ajouter un "hook"
+
+Vous pouvez ajouter du code Python pour effectuer des action spéciales ou complexe à gérer avec mpf. Dans l'exmple ci-dessous nous alons voir comment activer deux bobines en même temps. Pour commencer il faut créer un dossier code à la racine du projet dans lequel nous créeron un fichier vide __init__.py et un fichier python qui contiendra le code 2bobine.py.
+
+Voici un exmple de code qui active deux bobines simultanément.
+
+	from mpf.core.custom_code import CustomCode
+
+
+	class 2Bobine(CustomCode):
+
+ 	#cette fonction est activé au lancement
+    	def on_load(self):
+
+        	#si la bille est présente sur le switch1 plus de 100ms, on appelle la fonction qui active deux bobines
+        	self.machine.switch_controller.add_switch_handler('s_1', self.active2, ms=100)
+
+	#cette fonctione active deux bobines, la première étant un relai dans mon cas
+    	def active2(self):
+
+        	self.machine.coils['c_relay_s'].pulse(pulse_ms=100)
+        	self.machine.coils['c_4'].pulse(pulse_ms=20)
+
+Pour activer ce conde, il faut le préciser dans le config.yaml :
+
+	custom_code:
+  		- code.2bobine.2Bobine
+
+Il y a bien sur tout un tas de fonctions et paramètre accéssibles dans la doc de référence : https://missionpinball.org/latest/code/api_reference/
+
 [Le média controller](Gmc.md)
