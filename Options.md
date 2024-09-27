@@ -69,6 +69,6 @@ Pour activer ce conde, il faut le préciser dans le config.yaml :
 	custom_code:
   		- code.2bobine.2Bobine
 
-Il y a bien sur tout un tas de fonctions et paramètre accéssibles dans la doc de référence : https://missionpinball.org/latest/code/api_reference/
+Il y a bien sur tout un tas de fonctions et paramètres accéssibles dans la doc de référence : https://missionpinball.org/latest/code/api_reference/
 
 [Le média controller](Gmc.md)
