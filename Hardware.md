@@ -4,7 +4,7 @@ Pour faire fonctionner le flipper il faut une carte compatible avec MPF qui fera
 
 ## Flipper existant
  
-Voici une liste non exhaustive des solutions permettant de gérer certains systèmes existants. Vous trouverez au bas de cette page les cdéfinition des différentes plateformes à mettre dans le fichier conig.yaml.
+Voici une liste non exhaustive des solutions permettant de gérer certains systèmes existants. Vous trouverez au bas de cette page les définitions des différentes plateformes à mettre dans le fichier conig.yaml.
 
 **Bally/Stern AS-2518-17 ou AS-2518-35**
  
