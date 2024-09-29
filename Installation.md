@@ -12,6 +12,7 @@ Pour installer MPF il vous faudra un ordinateur exécutant l'un des système d'e
 ## Windows
 
 En premier lieu, il faut installer Python 3.11 qui est disponible sur leur site : https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe
+Exécutez le programme d'installation, choisissez l'option « Personnaliser l'installation » et assurez-vous de cocher la case « py launcher » et « pip ». (Les autres n'ont aucune importance.) Ensuite, sur l'écran suivant, cochez la case « Ajouter Python aux variables d'environnement ». Cliquez ensuite sur « Installer ».
 
 Maintenant, il faut créer un environnement virtuel Python, cela permet de pouvoir utiliser différents projets Python sans avoir d'impact sur les versions des dépendances de ces projets.
 
